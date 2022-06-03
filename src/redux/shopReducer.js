@@ -1,6 +1,7 @@
-import smartphone from './smartphone.jpg';
-import book from './book.jpg';
-import speaker from './speaker.jpg';
+
+import New_smartPhone from './New_SmartPhone.jpg';
+import new_speaker from './new_speaker.jpg';
+import new_books from './new_books.jpg';
 import * as actionTypes from './actions'
 
 const initialState = {
@@ -14,7 +15,7 @@ const initialState = {
               on top of the leaderboard while gaming. Its 16.5 cm (6.5) Mini-drop Fullscreen ensures an immersive
                experience while gaming, streaming content, and more. `,
           price: 20000,
-          image:smartphone,
+          image:New_smartPhone,
         },
         {
           id: 2,
@@ -25,7 +26,7 @@ const initialState = {
              wherever you are. With an IPX7 rating, it ensures water resistance so that you can listen to music by
               the poolside without a worry in the world.`,
           price: 999.0,
-          image:speaker,
+          image:new_speaker,
         },
         {
           id: 3,
@@ -36,7 +37,7 @@ const initialState = {
             On top of that, the empire is at war with the Chandravanshis who have allied with The Nagas, a group of 
             sinister and deformed human beings who have extraordinary martial art skills.`,
           price: 250.0,
-          image:book
+          image:new_books
         },
       ],
     currentItem:null,

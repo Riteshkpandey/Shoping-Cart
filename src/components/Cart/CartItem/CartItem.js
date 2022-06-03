@@ -1,9 +1,5 @@
 import React,{useState} from 'react'
 import { connect } from "react-redux";
-// import {
-//   adjustItemQty,
-//   removeFromCart,
-// } from "../../../redux/Shopping/shopping-actions";
 import './CartItem.css';
 import DeleteIcon from '@material-ui/icons/Delete';
 import Button from '@material-ui/core/Button';

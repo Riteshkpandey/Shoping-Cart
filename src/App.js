@@ -27,7 +27,7 @@ function App({ current }) {
            : 
             <Route exact path="/product/:id" component={SingleItem}/>
           }
-          {/* <Route exact path="/product/:id" component={SingleItem}/> */}
+          
         </Switch> 
       </div>
     </Router>

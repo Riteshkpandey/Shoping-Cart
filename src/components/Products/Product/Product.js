@@ -1,14 +1,9 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-// import { connect } from "react-redux";
 import { useHistory } from "react-router-dom";
-// import {
-//   loadCurrentItem,
-//   addToCart,
-// } from "../../../redux/Shopping/shopping-actions";
+
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
@@ -33,10 +28,6 @@ function Product2({ product, addToCart, loadCurrentItem }) {
     const handleOnClick = ()=>{
       loadCurrentItem(product);
       history.push(`/product/${product.id}`)
-      // history.push({
-      //   pathname:`/product/${product.id}`,
-      //   state: product
-      // })
       
     }
     return (
